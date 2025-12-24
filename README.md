@@ -6,14 +6,14 @@ A macOS bootstrap script that automates setting up a new Mac with development to
 
 - Installs Xcode Command Line Tools
 - Installs and configures Homebrew (with Apple Silicon support)
-- Installs CLI tools: git, gh, wget, curl, htop, vim
+- Installs CLI tools: git, wget, curl, htop, vim
 - Installs applications via Homebrew Cask:
   - **Browser:** Brave
   - **Development:** VS Code, iTerm2, Wireshark
   - **Productivity:** Obsidian
-  - **Communication:** Slack, Discord
-  - **Utilities:** The Unarchiver, AppCleaner, Stats, HiddenBar, Rectangle
-  - **Media:** Spotify
+  - **Communication:** Slack
+  - **Utilities:** AppCleaner, Stats, Rectangle
+  - **Other:** Claude Usage Tracker (via third-party tap)
 - Configures VS Code with Catppuccin Macchiato theme
 - Sets up Oh My Zsh with useful plugins
 - Configures Git with aliases and sensible defaults
