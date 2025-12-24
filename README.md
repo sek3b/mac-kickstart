@@ -12,7 +12,7 @@ A macOS bootstrap script that automates setting up a new Mac with development to
   - **Development:** VS Code, iTerm2, Wireshark
   - **Productivity:** Obsidian
   - **Communication:** Slack, Discord
-  - **Utilities:** The Unarchiver, AppCleaner, Stats, HiddenBar
+  - **Utilities:** The Unarchiver, AppCleaner, Stats, HiddenBar, Rectangle
   - **Media:** Spotify
 - Configures VS Code with Catppuccin Macchiato theme
 - Sets up Oh My Zsh with useful plugins

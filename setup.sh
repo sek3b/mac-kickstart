@@ -85,7 +85,6 @@ print_header "Installing CLI Tools"
 
 CLI_TOOLS=(
     git             # Version control system
-    gh              # GitHub CLI for PRs, issues, repos
     wget            # Download files from the web
     curl            # Transfer data with URLs, API requests
     htop            # Interactive process viewer
@@ -121,16 +120,11 @@ CASKS=(
 
     # Communication
     slack                 # Team messaging and collaboration
-    discord               # Voice, video, and text chat
 
     # Utilities
-    the-unarchiver        # Extract archives (zip, rar, 7z, etc.)
     appcleaner            # Completely uninstall apps and leftovers
     stats                 # System monitor in menu bar
-    hiddenbar             # Hide menu bar icons
-
-    # Media
-    spotify               # Music streaming
+    rectangle             # Window management with keyboard shortcuts
 )
 
 for cask in "${CASKS[@]}"; do
